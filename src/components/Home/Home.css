@@ -1,0 +1,136 @@
+.Home {
+  max-width: 720px;
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: #f8f8f8;
+}
+
+.Home header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #ebebeb;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.Home header h2 {
+  margin-right: 20px;
+  white-space: nowrap;
+}
+
+.Home .header-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Home .user-profile-button {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  border: 2px solid #ebebeb;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.Home .user-profile-button:hover {
+  opacity: 0.8;
+}
+
+.Home .user-profile-button:active {
+  transform: scale(0.8);
+}
+
+.Home .user-profile-button img {
+  border-radius: 50%;
+  max-height: 30px;
+  border: 2px solid #ebebeb;
+  border-left: none;
+  width: auto;
+}
+
+.Home .user-profile-button p {
+  padding: 0 10px;
+}
+
+.user-other-buttons {
+  display: flex;
+}
+
+.user-other-buttons button {
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width:330px) {
+
+  .Home header {
+    flex-direction: column;
+  }
+
+  .Home header h2 {
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid #ebebeb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .Home .header-buttons {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .user-other-buttons {
+    flex-direction: column;
+  }
+
+  .user-other-buttons button {
+    margin-bottom: 10px;
+    
+  }
+
+  .Home .user-profile-button {
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+}
+
+@media only screen  and (max-width:580px) and (min-width: 330px) {
+
+  .Home header {
+    flex-direction: column;
+  }
+
+  .Home header h2 {
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid #ebebeb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .Home .user-profile-button {
+    border-radius: 50%;
+    border: none;
+  }
+
+  .Home .user-profile-button img {
+    border-left: 2px solid #ebebeb;
+  }
+
+  .Home .user-profile-button p {
+    display: none;
+  }
+
+}
+

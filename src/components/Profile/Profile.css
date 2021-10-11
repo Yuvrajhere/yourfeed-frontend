@@ -1,0 +1,21 @@
+.Profile {
+  max-width: 720px;
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: #f8f8f8;
+}
+
+.Profile main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #ebebeb;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+main > img {
+  border-radius: 50%;
+  width: 25%;
+  cursor: pointer;
+}

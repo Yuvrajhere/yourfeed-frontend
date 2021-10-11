@@ -1,0 +1,21 @@
+.UnknownPage {
+  max-width: 720px;
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 2px solid #ebebeb;
+  margin-bottom: 30px;
+  padding: 30px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.UnknownPage h1 {
+  margin-bottom: 30px;
+}
+
+.UnknownPage button {
+  width: auto;
+  padding: 10px;
+}

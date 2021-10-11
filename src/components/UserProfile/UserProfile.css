@@ -1,0 +1,163 @@
+.UserProfile {
+  max-width: 720px;
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: #f8f8f8;
+}
+
+.UserProfile main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #ebebeb;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+main > img {
+  border-radius: 50%;
+  width: 25%;
+  cursor: pointer;
+}
+
+.edit-icon-image {
+  display: none;
+  opacity: 0.5;
+}
+
+.actual-profile-image:hover{
+  display: none;
+}
+
+.actual-profile-image:hover ~ .edit-icon-image {
+  display: flex;
+}
+
+main > div > .profile-btns {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.user-details {
+  margin-left: 10%;
+}
+
+.profile-btns > button {
+  padding: 2% 5%;
+  cursor: pointer;
+}
+
+.new-post-btn {
+  background-color: #f8f8f8;
+  margin-right: 20px;
+  border: 1px solid #ebebeb;
+  white-space: nowrap;
+}
+
+.signout-btn {
+  background-color: #cc3300;
+  border: 1px solid #ff9966;
+  color: #ffffff;
+}
+
+.image-edit {
+  border: 2px solid #ebebeb;
+  border-radius: 5px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 220px;
+}
+
+.image-edit .image-edit-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 2px solid #ebebeb;
+  max-width: 200px;
+}
+
+.image-edit-options > .remove-image {
+  padding: 5px;
+  border-bottom: 2px solid #ebebeb;
+  cursor: pointer;
+  color: #cc3300;
+}
+
+.image-edit-options .remove-image:active {
+  font-weight: 600;
+}
+
+.image-uploader {
+  padding: 5px;
+}
+
+.image-uploader p {
+  margin-bottom: 5px;
+}
+
+.image-uploader form {
+  overflow-x: hidden;
+}
+
+.image-uploader input[type=file] {
+  font-size: 10px;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  padding-right: 20px;
+}
+
+.image-uploader input[type=submit] {
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+  color: #f8f8f8;
+  background-color: #707070;
+  border: 1px solid #ebebeb;
+  white-space: nowrap;
+}
+
+.image-uploader input[type=submit]:active {
+  transform: scale(0.8);
+}
+
+.close-edit-btn-div {
+  margin: 0 auto;
+  padding: 0 4px;
+}
+
+.close-edit-btn {
+  cursor: pointer;
+  color: #707070;
+  cursor: pointer;
+}
+
+.close-edit-btn:active {
+  transform: scale(0.8);
+}
+
+.no-posts-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #ebebeb;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.no-posts-div h2 {
+  margin-bottom: 5px;
+}
+
+.no-posts-div button {
+  margin-top: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}

@@ -1,0 +1,30 @@
+.Signup {
+  max-width: 720px;
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 2px solid #ebebeb;
+}
+
+.Signup h2 {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #f8f8f8;
+  color: #272727;
+}
+
+.Signup form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 30px 20px 50px 20px;
+}
+
+.Signup .alt {
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid #f8f8f8;
+  color: #272727;
+}

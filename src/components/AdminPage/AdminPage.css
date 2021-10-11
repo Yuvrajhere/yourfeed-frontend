@@ -1,0 +1,16 @@
+.AdminPage {
+  max-width: 720px;
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: #f8f8f8;
+}
+
+.AdminPage header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #ebebeb;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
